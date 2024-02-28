@@ -111,7 +111,7 @@ async def activevc(_, message: Message):
 
 
 
-FORBIDDEN_KEYWORDS = ["porn", "xxx", "sex", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt", "madhrchod", "randi", " lund", "land", "lawda", " betichod", "chutiya", "gand", "lula", " Chutiya"]
+FORBIDDEN_KEYWORDS = ["porn", "xxx", "sex", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt", "madhrchod", "randi", " lund", "land", "lawda", " betichod", "chutiya", "gand", "lula"]
 
 @app.on_message()
 async def handle_message(client, message):
@@ -124,7 +124,7 @@ async def handle_message(client, message):
         logging.info(f"Deleting message with ID {message.id}")
         await message.delete()
        # user_mention = from_user.mention
-        await message.reply_text(f"@{message.from_user.username} 𝖣𝗈𝗇'𝗍 𝗌𝖾𝗇𝖽 𝗇𝖾𝗑𝗍 𝗍𝗂𝗆𝖾!")
+        await message.reply_text(f"@{message.from_user.username} ᴡʜʏ ʏᴏᴜ ᴜsɪɴɢ ʟɪᴋᴇ ᴛʜɪs ᴡᴏʀᴅ ᴅᴏɴ'ᴛ ᴅᴏ ɴᴇxᴛ ᴛɪᴍᴇ ᴏᴋʏ! ɪғ ʏᴏᴜ ᴅᴏ ᴀɢᴀɪɴ ᴀᴅᴍɪɴs ɢɪᴠᴇs ʏᴏᴜ ʙᴀɴ. ")
         
         
 # -------------------------------------------------------------------------------------
